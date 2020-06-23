@@ -1,0 +1,23 @@
+section {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#score-table {
+    display: inline-flex;
+    margin-right: 36px;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+@media all and (min-width: 600px) {
+    section {
+        width: 50%;
+        margin: auto;
+    }
+}
